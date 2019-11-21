@@ -1,0 +1,11 @@
+framework module CustomPhotosFramework {
+  umbrella header "CustomPhotosFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module CustomPhotosFramework.Swift {
+    header "CustomPhotosFramework-Swift.h"
+    requires objc
+}
